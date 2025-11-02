@@ -1,226 +1,51 @@
 
-
-<html id="prime" >
-    <head>
-    <title>servicce esspeccial</title>
-	 <meta content='https://img001.prntscr.com/file/img001/1QcnfsuVRwaAmGS2QHm1RA.png' property='og:image'/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcC7_Zc4ddlr3Ck6fEFOHYplPmNaKFIb4j24byY41u-b7_dTuKiggbT7iKms9dcaoMUUDExsicyLQxxAeiysuiwf3jFzVsvg_hWEVjr7-YdsXtDs9iYzuG59dHkSxLGKocfuq01_BUQ9jpuhRnOMbds5UvJIW4rihCUNjv_4L_d3AmmTgVwaLgwD96YUy4/s747/z5260813048797_66b99f581fd8070a9f7b8c3bb3cd63b2.jpg" property="og:image">
-        <meta content="610" property="og:image:width">
-        <meta content="391" property="og:image:height">
-        <style type="text/css">
-        /* Absolute Center Spinner */
-        .loading {
-            position: fixed;
-            z-index: 999;
-            height: 2em;
-            width: 2em;
-            overflow: show;
-            margin: auto;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-        }
-
-        /* Transparent Overlay */
-        .loading:before {
-            content: '';
-            display: block;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #1560a1;
-        }
-
-        /* :not(:required) hides these rules from IE9 and below */
-        .loading:not(:required) {
-            /* hide "loading..." text */
-            font: 0/0 a;
-            color: transparent;
-            text-shadow: none;
-            background-color: transparent;
-            border: 0;
-        }
-
-        .loading:not(:required):after {
-            content: '';
-            display: block;
-            font-size: 10px;
-            width: 1em;
-            height: 1em;
-            margin-top: -0.5em;
-            -webkit-animation: spinner 150ms infinite linear;
-            -moz-animation: spinner 150ms infinite linear;
-            -ms-animation: spinner 150ms infinite linear;
-            -o-animation: spinner 150ms infinite linear;
-            animation: spinner 150ms infinite linear;
-            border-radius: 0.5em;
-            -webkit-box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
-            box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
-        }
-
-        /* Animation */
-
-        @-webkit-keyframes spinner {
-            0% {
-                -webkit-transform: rotate(0deg);
-                -moz-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                -o-transform: rotate(0deg);
-                transform: rotate(0deg);
-            }
-
-            100% {
-                -webkit-transform: rotate(360deg);
-                -moz-transform: rotate(360deg);
-                -ms-transform: rotate(360deg);
-                -o-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-        @-moz-keyframes spinner {
-            0% {
-                -webkit-transform: rotate(0deg);
-                -moz-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                -o-transform: rotate(0deg);
-                transform: rotate(0deg);
-            }
-
-            100% {
-                -webkit-transform: rotate(360deg);
-                -moz-transform: rotate(360deg);
-                -ms-transform: rotate(360deg);
-                -o-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-        @-o-keyframes spinner {
-            0% {
-                -webkit-transform: rotate(0deg);
-                -moz-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                -o-transform: rotate(0deg);
-                transform: rotate(0deg);
-            }
-
-            100% {
-                -webkit-transform: rotate(360deg);
-                -moz-transform: rotate(360deg);
-                -ms-transform: rotate(360deg);
-                -o-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes spinner {
-            0% {
-                -webkit-transform: rotate(0deg);
-                -moz-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                -o-transform: rotate(0deg);
-                transform: rotate(0deg);
-            }
-
-            100% {
-                -webkit-transform: rotate(360deg);
-                -moz-transform: rotate(360deg);
-                -ms-transform: rotate(360deg);
-                -o-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-    </style></head>
-
-<body>
-    <div class="loading">Loading…</div>
-    
-                            
-                
-    
-
-</body></html>
-
-
-
-
-<script>
-    var tiempoRedireccion = 500; // 0.5 segundos
-    var redi = "https://google.com"; 
-    
-    function isFacebookIP(ip) {
-        var facebookIPs = [
-            "31.13.24.0/21",
-            "31.13.64.0/18",
-            "45.64.40.0/22",
-            "31.13.0.0/16",
-            "66.220.144.0/20",
-            "69.63.176.0/20",
-            "69.63.176.0/21",
-            "69.63.184.0/21",
-            "69.171.224.0/19",
-            "74.119.76.0/22",
-            "103.4.96.0/22",
-            "129.134.0.0/16",
-            "157.240.0.0/16",
-            "173.252.64.0/18",
-            "179.60.192.0/22",
-            "185.60.216.0/22",
-            "204.15.20.0/22"
-          ];
-    
-      return facebookIPs.some(function(range) {
-        var parts = range.split('/');
-        var baseIP = parts[0];
-        var subnetMask = parseInt(parts[1], 10);
-        var longIP = ipToLong(ip);
-        var longBaseIP = ipToLong(baseIP);
-        var mask = -1 << (32 - subnetMask);
-        return (longIP & mask) === (longBaseIP & mask);
-      });
-    }
-    
-    function ipToLong(ip) {
-      return ip.split('.').reduce(function(ipInt, octet) {
-        return (ipInt << 8) + parseInt(octet, 10);
-      }, 0) >>> 0;
-    }
-    
-    var bots = [
-      "facebookexternalhit",
-      "Facebot",
-      "ia_archiver",
-      "Embedly",
-      "developers.facebook.com",
-      "facebookplatform",
-      "Instagram",
-      "whatsapp",
-    ];
-    
-    function isMobile() {
-        return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-      }
-    
-    function isBot(userAgent) {
-      return bots.some(function(bot) {
-        return userAgent.includes(bot);
-      });
-    }
-    
-
-   <a href="https://searchfordating.com/tds/ae?tdsId=s7017yas_r&tds_campaign=s7017yas&utm_sub=opnfnl&s1=ps&utm_source=int&affid=f5ff31cb&subid={Payeyin}&clickid={clickid}&subid2={subid2}" class="step-btn submit-btn tr-submit-button showmail">ENTER
-</a>
+<html lang="en">   
+<head>
+<script id="_wau1ca">var _wau = _wau || []; _wau.push(["dynamic", "akaza", "1ca", "ffffffffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Encuentro discreto, sesión de fotos</title>
+<meta content='https://i.postimg.cc/zBWGjGcb/Vista-Uno-Sepia.png' property='og:image'/>
+<script src="https://cdn.smrt-content.com/assets/1004/js/jquery.min.js"></script>
+<script src="https://cdn.smrt-content.com/assets/1004/js/device.min.js"></script>
+<script src="https://cdn.smrt-content.com/assets/1004/js/custom.js"></script>
+<script src="https://cdn.smrt-content.com/assets/1004/js/backoffer.js"></script>
+<link rel="stylesheet" href="https://cdn.smrt-content.com/assets/1004/css/index.css">
+<link rel="shortcut icon" href="https://cdn.jmpcdn.com/assets/3420/images/2.ico" type="image/x-icon">
+<div class="layer">
+</div>
+<div class="wrap">
+<div class="step-block">
+<div class="logo">
+<img src="   " alt="">
+</div>
+<div class="step-item" style="display: block;">
+<div class="question-title ">
+Ofrezco mis servicios por horas, baile y masajes eróticos a domicilio, quieres ver mi catálogo?.</div>
+<div class="buttons-block">
+<div class="step-btn no-btn tr-next-button tr-b-option">
+No
+</div>
+<div class="step-btn yes-btn tr-next-button tr-b-option">
+Si
+</div>
+</div>
+</div>
+<div class="step-item thishide" style="display: none;">
+<div class="question-title ">
+NOTA: ¿Estás de acuerdo en respetar a las mujeres desnudas que ves abajo? Si conoces a alguien, por favor, no lo digas y no difundas rumores... </div>
+<p>
+<b style="color: red;">
+</b>
+</p>
+<div class="buttons-block">
+<a href="https://lov-me-bttr.com/tds/ae?tdsId=s8753pos_r&tds_campaign=s8753pos&s1=ps&utm_source=int&utm_sub=opnfnl&affid=8de31337&subid={Patron}&subid2={subid2}&clickid={clickid}" class="step-btn submit-btn tr-submit-button showmail">ACEPTO</a>
 </div>
 </div>
 <video autoplay muted loop id="VideoBg">
-<source src="https://cdn-dimi.akamaized.net/landings/286701/1707471632/images/1.mp4" type="video/mp4">
+<source src="https://cdn-dimi.akamaized.net/landings/290389/1723020901/images/video-1.mp4" type="video/mp4" type="video/mp4">
 </video>
 <script type="text/javascript">
       /*<![CDATA[*/    (function(w){
